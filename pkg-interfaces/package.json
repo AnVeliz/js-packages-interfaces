@@ -4,8 +4,12 @@
   "description": "Just an example of a package with interfaces",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "Anatoliy Velizhanin",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
