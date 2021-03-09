@@ -1,3 +1,4 @@
+The project is just a set of notes which I need sometimes.
 
 To run verdaccio in Docker:
 docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
