@@ -10,3 +10,6 @@ npm publish --registry http://localhost:4873
 
 To install a package from verdaccio:
 npm install local-verdaccio-package-name --registry=http://localhost:4873
+
+If you'd like to set local verdaccio as a user's npm registry:
+npm set registry http://localhost:4873/
